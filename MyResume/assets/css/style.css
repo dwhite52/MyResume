@@ -42,7 +42,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0563bb;
+  background: #bb1d05;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -56,7 +56,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #0678e3;
+  background: #eb472e;
   color: #fff;
 }
 
@@ -95,7 +95,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #0563bb;
+  border: 6px solid #bb1d05;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -340,7 +340,7 @@ h6 {
 }
 
 #hero p span {
-  color: #0563bb;
+  color: #bb1d05;
   letter-spacing: 1px;
 }
 
@@ -358,7 +358,7 @@ h6 {
 }
 
 #hero .social-links a:hover {
-  color: #0563bb;
+  color: #bb1d05;
 }
 
 @media (max-width: 992px) {
@@ -418,7 +418,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background: #bb1d05;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -554,7 +554,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #0563bb;
+  border-left: 2px solid #bb1d05;
   position: relative;
 }
 
@@ -564,7 +564,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #0563bb;
+  color: #bb1d05;
   margin-bottom: 10px;
 }
 
@@ -598,7 +598,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #0563bb;
+  border: 2px solid #bb1d05;
 }
 
 /*--------------------------------------------------------------
