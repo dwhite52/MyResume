@@ -8,6 +8,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+:root {
+  --resume-item-text: #0563bb;
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -42,7 +46,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #bb1d05;
+  background: var(--resume-item-text);
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -56,7 +60,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #eb472e;
+  background: #4c9eeb;
   color: #fff;
 }
 
@@ -95,7 +99,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #bb1d05;
+  border: 6px solid var(--resume-item-text);
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -236,7 +240,7 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover > a {
   color: #fff;
-  background: #bb1d05;
+  background: var(--resume-item-text);
 }
 
 .nav-menu a:hover span,
@@ -340,7 +344,7 @@ h6 {
 }
 
 #hero p span {
-  color: #bb1d05;
+  color: var(--resume-item-text);
   letter-spacing: 1px;
 }
 
@@ -358,7 +362,7 @@ h6 {
 }
 
 #hero .social-links a:hover {
-  color: #bb1d05;
+  color: var(--resume-item-text);
 }
 
 @media (max-width: 992px) {
@@ -418,7 +422,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #bb1d05;
+  background: var(--resume-item-text);
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -554,7 +558,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #bb1d05;
+  border-left: 2px solid var(--resume-item-text);
   position: relative;
 }
 
@@ -564,7 +568,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #bb1d05;
+  color: var(--resume-item-text);
   margin-bottom: 10px;
 }
 
@@ -887,7 +891,7 @@ section {
 
 .services .icon-box:hover {
   border-color: #fff;
-  box-shadow: 0px 0 35px 0 rgba(211, 26, 26, 0.171);
+  box-shadow: 0px 0 35px 0 rgba(19, 156, 211, 0.171);
 }
 
 .services .iconbox-blue i {
